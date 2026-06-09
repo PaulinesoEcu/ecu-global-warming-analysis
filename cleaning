@@ -1,0 +1,29 @@
+# Clean the Year column first
+df_australia['Year'] = df_australia['Year'].str.replace('F', '').astype(int)
+df_global['Year'] = df_global['Year'].str.replace('F', '').astype(int)
+
+print("Year column cleaned successfully!")
+print("Sample years:", df_australia['Year'].head().tolist())
+
+# Now run Linear Regression
+from sklearn.linear_model import LinearRegression
+
+# Australia Trend
+X_aus = df_australia[['Year']].values
+y_aus = df_australia['Temperature'].values
+
+reg_aus = LinearRegression().fit(X_aus, y_aus)
+slope_aus = reg_aus.coef_[0] * 10   # per decade
+
+print(f"\nAustralia Warming Rate: {slope_aus:.3f}°C per decade")
+print(f"R² value: {reg_aus.score(X_aus, y_aus):.3f}")
+
+# Global Trend
+X_global = df_global[['Year']].values
+y_global = df_global['Temperature'].values
+
+reg_global = LinearRegression().fit(X_global, y_global)
+slope_global = reg_global.coef_[0] * 10
+
+print(f"Global Warming Rate: {slope_global:.3f}°C per decade")
+print(f"R² value: {reg_global.score(X_global, y_global):.3f}")
