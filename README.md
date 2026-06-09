@@ -20,8 +20,8 @@ Analysis of global warming trends (1961–2022) to support Edith Cowan Universit
 *(Insert your screenshots here in the README using "Add image" button)*
 
 ## Author
-[Your Full Name]  
+Pauline Marwa  
 Edith Cowan University
 
 ## Submission Link
-**GitHub Repository**: [Add your link here after saving]
+**GitHub Repository**: https://github.com/PaulinesoEcu/ecu-global-warming-analysis 
