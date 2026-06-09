@@ -1,0 +1,16 @@
+import pandas as pd
+import os
+
+# Use the path from previous cell
+path = kagglehub.dataset_download('jawadawan/global-warming-trends-1961-2022', force_download=False)
+
+# Load the long format file (best for analysis)
+df = pd.read_csv(os.path.join(path, 'long_format_annual_surface_temp.csv'))
+
+print("Dataset Shape:", df.shape)
+print("\nColumns:", df.columns.tolist())
+print("\nFirst 5 rows:")
+print(df.head())
+
+print("\nCountries in dataset:", df['Country'].nunique())
+print(df['Country'].unique()[:15])  # First 15 countries
