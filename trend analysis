@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 6))
+plt.plot(df_australia['Year'], df_australia['Temperature'], label='Australia', color='red', alpha=0.7)
+plt.plot(df_global['Year'], df_global['Temperature'], label='Global Average', color='blue', alpha=0.7)
+
+plt.title('Temperature Trends: Australia vs Global Average (1961-2022)', fontsize=14)
+plt.xlabel('Year')
+plt.ylabel('Temperature Anomaly (°C)')
+plt.legend()
+plt.grid(True, alpha=0.3)
+plt.show()
