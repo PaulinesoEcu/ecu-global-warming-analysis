@@ -1,27 +1,49 @@
 # ECU Global Warming Analysis
 
-**Data Analytics Portfolio** for MAN6777 - Data Driven Managerial Decisions
+**Data Analytics Portfolio**  
+**MAN6777 - Data Driven Managerial Decisions**  
+Edith Cowan University (ECU), Perth
 
 ## Project Overview
-Analysis of global warming trends (1961–2022) to support Edith Cowan University’s strategic sustainability decision-making.
+This project analyses global warming trends (1961–2022) to support a strategic sustainability decision at ECU.
 
-**Decision Question**: Should ECU accelerate carbon reduction targets and invest in renewable energy by 2030?
+**Decision Question**:  
+Should ECU accelerate its carbon reduction targets and invest more aggressively in renewable energy and climate resilience infrastructure by 2030?
 
 **Key Findings**:
-- Australia warming rate: **0.199°C per decade**
-- Global warming rate: **0.250°C per decade**
+- Australia warming rate: **0.199°C per decade** (R² = 0.568)
+- Global warming rate: **0.250°C per decade** (R² = 0.877)
 
-## Repository Contents
-- `ECU_Global_Warming_Analysis_Report.pdf` → Full assignment report
-- `screenshots/` → All visualizations and outputs
-- Jupyter notebooks
+---
 
 ## Key Visualizations
-screenshots
+
+![Temperature Trends with 10-Year Rolling Average](screenshots/trend%20plot%20with%20rolling%20averages.jpg)
+
+![Australia Data Head (First 5 Rows)](screenshots/Datahead.jpg)
+
+![Linear Regression Results](screenshots/Regreesion%20output.jpg)
+
+![Temperature Trends Overview](screenshots/temperature%20trends.jpg)
+
+---
+
+## Full Report
+[Download Full Assignment Report](ECU_Global_Warming_Analysis_Report.pdf)
+
+---
+
+## Repository Structure
+- `screenshots/` — All visualizations used in the report
+- `README.md` — This file
+- Report PDF — Complete assignment submission
+- Notebook- contains the code and data 
 
 ## Author
 Pauline Marwa  
+Student ID: 10730566 
 Edith Cowan University
 
-## Submission Link
-**GitHub Repository**: https://github.com/PaulinesoEcu/ecu-global-warming-analysis 
+---
+
+**Submitted as part of Activity 3 - Data Analytics Portfolio**
