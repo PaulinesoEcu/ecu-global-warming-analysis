@@ -29,7 +29,7 @@ Should ECU accelerate its carbon reduction targets and invest more aggressively 
 ---
 
 ## Full Report
-[Download Full Assignment Report](ECU_Global_Warming_Analysis_Report.pdf)
+[Download Full Assignment Report]https://github.com/PaulinesoEcu/ecu-global-warming-analysis/blob/Full-report/Data%20Analytics%20Portfolio%20Global%20Warming%20Trends%20Analysis.pdf 
 
 ---
 
