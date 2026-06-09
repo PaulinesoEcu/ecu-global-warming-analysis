@@ -14,10 +14,10 @@ Analysis of global warming trends (1961–2022) to support Edith Cowan Universit
 ## Repository Contents
 - `ECU_Global_Warming_Analysis_Report.pdf` → Full assignment report
 - `screenshots/` → All visualizations and outputs
-- Jupyter notebooks (optional)
+- Jupyter notebooks
 
 ## Key Visualizations
-*(Insert your screenshots here in the README using "Add image" button)*
+screenshots
 
 ## Author
 Pauline Marwa  
