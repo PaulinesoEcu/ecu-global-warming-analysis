@@ -18,13 +18,13 @@ Should ECU accelerate its carbon reduction targets and invest more aggressively 
 
 ## Key Visualizations
 
-![Temperature Trends with 10-Year Rolling Average](screenshots/trend%20plot%20with%20rolling%20averages.jpg)
+![Temperature Trends with 10-Year Rolling Average] https://github.com/PaulinesoEcu/ecu-global-warming-analysis/blob/Screenshot/temperature%20trends%20.jpg
 
-![Australia Data Head (First 5 Rows)](screenshots/Datahead.jpg)
+![Australia Data Head (First 5 Rows)] https://github.com/PaulinesoEcu/ecu-global-warming-analysis/blob/Screenshot/Datahead.jpg 
 
-![Linear Regression Results](screenshots/Regreesion%20output.jpg)
+![Linear Regression Results] https://github.com/PaulinesoEcu/ecu-global-warming-analysis/blob/Screenshot/Regreesion%20output.jpg
 
-![Temperature Trends Overview](screenshots/temperature%20trends.jpg)
+![Temperature Trends Overview] https://github.com/PaulinesoEcu/ecu-global-warming-analysis/blob/Screenshot/temperature%20trends%20.jpg 
 
 ---
 
